@@ -430,7 +430,8 @@ func (s *SessionDescription) unmarshalMediaDescription(value string) error {
 		fields[0] != "audio" &&
 		fields[0] != "application" &&
 		!strings.HasPrefix(fields[0], "application/") &&
-		fields[0] != "metadata" {
+		fields[0] != "metadata" &&
+		fields[0] != "vana" {
 		return fmt.Errorf("%w `%v`", errSDPInvalidValue, fields[0])
 	}
 	newMediaDesc.MediaName.Media = fields[0]
@@ -469,7 +470,9 @@ func (s *SessionDescription) unmarshalMediaDescription(value string) error {
 		newMediaDesc.MediaName.Formats = append(newMediaDesc.MediaName.Formats, fields[i])
 	}
 
-	s.MediaDescriptions = append(s.MediaDescriptions, newMediaDesc)
+	if fields[0] != "vana" {
+		s.MediaDescriptions = append(s.MediaDescriptions, newMediaDesc)
+	}
 
 	return nil
 }
