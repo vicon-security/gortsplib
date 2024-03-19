@@ -1,4 +1,4 @@
-module github.com/bluenviron/gortsplib/v4
+module github.com/vicon-security/gortsplib/v4
 
 go 1.19
 
