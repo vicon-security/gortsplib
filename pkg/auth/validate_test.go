@@ -3,8 +3,8 @@ package auth
 import (
 	"testing"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
+	"github.com/vicon-security/gortsplib/v4/pkg/base"
+	"github.com/vicon-security/gortsplib/v4/pkg/headers"
 	"github.com/stretchr/testify/require"
 )
 

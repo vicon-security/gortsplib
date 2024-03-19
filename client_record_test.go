@@ -14,12 +14,12 @@ import (
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
+	"github.com/vicon-security/gortsplib/v4/pkg/base"
+	"github.com/vicon-security/gortsplib/v4/pkg/conn"
+	"github.com/vicon-security/gortsplib/v4/pkg/description"
+	"github.com/vicon-security/gortsplib/v4/pkg/format"
+	"github.com/vicon-security/gortsplib/v4/pkg/headers"
+	"github.com/vicon-security/gortsplib/v4/pkg/sdp"
 )
 
 var testH264Media = &description.Media{

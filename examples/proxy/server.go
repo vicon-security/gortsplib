@@ -4,9 +4,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/vicon-security/gortsplib/v4"
+	"github.com/vicon-security/gortsplib/v4/pkg/base"
+	"github.com/vicon-security/gortsplib/v4/pkg/description"
 )
 
 type server struct {

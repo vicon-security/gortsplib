@@ -5,10 +5,10 @@ import (
 	"image/jpeg"
 	"log"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtpmjpeg"
+	"github.com/vicon-security/gortsplib/v4"
+	"github.com/vicon-security/gortsplib/v4/pkg/base"
+	"github.com/vicon-security/gortsplib/v4/pkg/format"
+	"github.com/vicon-security/gortsplib/v4/pkg/format/rtpmjpeg"
 	"github.com/pion/rtp"
 )
 
